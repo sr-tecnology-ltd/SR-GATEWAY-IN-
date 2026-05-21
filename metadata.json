@@ -1,0 +1,8 @@
+{
+  "name": "SR GATEWAY IN",
+  "description": "Secure enterprise digital payment gateway and disburse terminal with absolute transaction protection and active Telegram controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

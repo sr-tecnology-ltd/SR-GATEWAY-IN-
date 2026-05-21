@@ -1,9 +1,9 @@
 [build]
-  command = "npm run build"
+  command = "esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.js"
   publish = "dist"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/.netlify/functions/server/:splat"
   status = 200
   
